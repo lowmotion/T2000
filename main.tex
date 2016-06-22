@@ -1,0 +1,30 @@
+\documentclass[a4paper, 12pt, BCOR5mm, DIV=calc, appendixprefix, headsepline]{scrreprt}
+
+\input{settings/packages}
+
+\typearea[current]{calc}
+\pagestyle{headings}
+\onehalfspacing
+
+\begin{document}
+	
+	\pagenumbering{roman}
+	
+	\include{content/lead/frontpage}
+	\include{content/lead/affidavit}
+	\include{content/lead/abstract}
+	
+	\newpage
+	\tableofcontents
+	
+	\newpage
+	\listoffigures
+	
+	\newpage
+	\pagenumbering{arabic}
+	
+	\include{content/intro}
+	\include{content/body}
+	\include{content/sum}
+
+\end{document}
