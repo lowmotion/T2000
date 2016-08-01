@@ -222,3 +222,5 @@ pip-log.txt
 *.lof
 *.synctex.gz
 *.toc
+main.run.xml
+main.bcf

@@ -2,11 +2,14 @@
 
 \input{settings/packages}
 
+
+
 \typearea[current]{calc}
 \pagestyle{headings}
 \onehalfspacing
 
 \begin{document}
+	
 	
 	\pagenumbering{roman}
 	
@@ -24,7 +27,11 @@
 	\pagenumbering{arabic}
 	
 	\include{content/intro}
+	\nocite{*}
 	\include{content/body}
 	\include{content/sum}
+	
+	\newpage
+	\printbibliography
 
 \end{document}
